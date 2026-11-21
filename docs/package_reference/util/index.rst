@@ -7,6 +7,7 @@ Utility Functions
    backend
    dataset
    distributed
+   embedding_store
    environment
    file_io
    hard_negatives

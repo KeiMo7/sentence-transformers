@@ -3,6 +3,21 @@ from __future__ import annotations
 from .dataset import resolve_ids
 from .decorators import save_to_hub_args_decorator
 from .distributed import all_gather, all_gather_padded, all_gather_with_grad, get_rank, get_world_size
+from .embedding_store import (
+    CorpusPlan,
+    EmbeddingSpec,
+    EmbeddingStore,
+    EmbeddingStoreError,
+    FingerprintMismatchError,
+    PlanMismatchError,
+    RunStats,
+    ShardClaimedError,
+    ShardVerification,
+    StoreCorruptionError,
+    StoreLockedError,
+    VerificationReport,
+    build_plan,
+)
 from .environment import (
     check_package_availability,
     check_version_requirements,
@@ -70,6 +85,20 @@ from .tensor import (
 __all__ = [
     # From decorators.py
     "save_to_hub_args_decorator",
+    # From embedding_store.py
+    "CorpusPlan",
+    "EmbeddingSpec",
+    "EmbeddingStore",
+    "EmbeddingStoreError",
+    "FingerprintMismatchError",
+    "PlanMismatchError",
+    "RunStats",
+    "ShardClaimedError",
+    "ShardVerification",
+    "StoreCorruptionError",
+    "StoreLockedError",
+    "VerificationReport",
+    "build_plan",
     # From distributed.py
     "all_gather",
     "all_gather_padded",
