@@ -1,0 +1,72 @@
+{
+  "chunks_with_chunking_enabled": 16,
+  "chunks_with_chunking_disabled": 3,
+  "whole_document_encode_identical": true,
+  "parity": [
+    {
+      "query": "what is parameter A",
+      "baseline": [
+        {
+          "doc_id": "c",
+          "score": 0.7827702760696411
+        },
+        {
+          "doc_id": "a",
+          "score": 0.5149752497673035
+        },
+        {
+          "doc_id": "b",
+          "score": 0.11754901707172394
+        }
+      ],
+      "disabled_retriever": [
+        {
+          "doc_id": "c",
+          "score": 0.7827702760696411
+        },
+        {
+          "doc_id": "a",
+          "score": 0.5149752497673035
+        },
+        {
+          "doc_id": "b",
+          "score": 0.11754901707172394
+        }
+      ],
+      "identical": true
+    },
+    {
+      "query": "invoice application",
+      "baseline": [
+        {
+          "doc_id": "a",
+          "score": 0.17245039343833923
+        },
+        {
+          "doc_id": "c",
+          "score": 0.1398928463459015
+        },
+        {
+          "doc_id": "b",
+          "score": 0.04928990453481674
+        }
+      ],
+      "disabled_retriever": [
+        {
+          "doc_id": "a",
+          "score": 0.17245039343833923
+        },
+        {
+          "doc_id": "c",
+          "score": 0.1398928463459015
+        },
+        {
+          "doc_id": "b",
+          "score": 0.04928990453481674
+        }
+      ],
+      "identical": true
+    }
+  ],
+  "all_identical": true
+}

@@ -140,6 +140,7 @@ These methods accept all the same input types as :meth:`~sentence_transformers.s
    ../../../examples/sentence_transformer/applications/computing-embeddings/README
    semantic_textual_similarity
    ../../../examples/sentence_transformer/applications/semantic-search/README
+   long_document_retrieval
    ../../../examples/sentence_transformer/applications/retrieve_rerank/README
    ../../../examples/sentence_transformer/applications/clustering/README
    ../../../examples/sentence_transformer/applications/paraphrase-mining/README

@@ -1,0 +1,103 @@
+{
+  "query": "What is the beta parameter default?",
+  "documents": {
+    "mentions-once": "Filler paragraph zero about packaging. Filler paragraph one about logistics. The beta parameter default is 42 and appears once. Filler paragraph three about invoicing. Filler paragraph four about support hours.",
+    "mentions-many": "The beta parameter default is 42. The beta parameter default is 42. The beta parameter default is 42. The beta parameter default is 42. The beta parameter default is 42.",
+    "unrelated": "The unrelated guide paragraph 0 discusses routine topic 0 with no special parameter. The unrelated guide paragraph 1 discusses routine topic 1 with no special parameter. The unrelated guide paragraph 2 discusses routine topic 2 with no special parameter. The unrelated guide paragraph 3 discusses routine topic 3 with no special parameter. The unrelated guide paragraph 4 discusses routine topic 4 with no special parameter. The unrelated guide paragraph 5 discusses routine topic 5 with no special parameter. The unrelated guide paragraph 6 discusses routine topic 6 with no special parameter. The unrelated guide paragraph 7 discusses routine topic 7 with no special parameter. The unrelated guide paragraph 8 discusses routine topic 8 with no special parameter. The unrelated guide paragraph 9 discusses routine topic 9 with no special parameter. The unrelated guide paragraph 10 discusses routine topic 10 with no special parameter. The unrelated guide paragraph 11 discusses routine topic 11 with no special parameter. The unrelated guide paragraph 12 discusses routine topic 12 with no special parameter. The unrelated guide paragraph 13 discusses routine topic 13 with no special parameter. The unrelated guide paragraph 14 discusses routine topic 14 with no special parameter. The unrelated guide paragraph 15 discusses routine topic 15 with no special parameter. The unrelated guide paragraph 16 discusses routine topic 16 with no special parameter. The unrelated guide paragraph 17 discusses routine topic 17 with no special parameter. The unrelated guide paragraph 18 discusses routine topic 18 with no special parameter. The unrelated guide paragraph 19 discusses routine topic 19 with no special parameter. The unrelated guide paragraph 20 discusses routine topic 20 with no special parameter. The unrelated guide paragraph 21 discusses routine topic 21 with no special parameter. The unrelated guide paragraph 22 discusses routine topic 22 with no special parameter. The unrelated guide paragraph 23 discusses routine topic 23 with no special parameter."
+  },
+  "rankings": {
+    "max": [
+      {
+        "rank": 1,
+        "doc_id": "mentions-many",
+        "score": 0.902641,
+        "hit_count": 5,
+        "chunk_scores": [
+          0.902641
+        ]
+      },
+      {
+        "rank": 2,
+        "doc_id": "mentions-once",
+        "score": 0.865455,
+        "hit_count": 5,
+        "chunk_scores": [
+          0.865455
+        ]
+      },
+      {
+        "rank": 3,
+        "doc_id": "unrelated",
+        "score": 0.595377,
+        "hit_count": 36,
+        "chunk_scores": [
+          0.595377
+        ]
+      }
+    ],
+    "mean_top_n": [
+      {
+        "rank": 1,
+        "doc_id": "mentions-many",
+        "score": 0.902641,
+        "hit_count": 5,
+        "chunk_scores": [
+          0.902641,
+          0.902641,
+          0.902641
+        ]
+      },
+      {
+        "rank": 2,
+        "doc_id": "mentions-once",
+        "score": 0.618384,
+        "hit_count": 5,
+        "chunk_scores": [
+          0.865455,
+          0.520055,
+          0.469642
+        ]
+      },
+      {
+        "rank": 3,
+        "doc_id": "unrelated",
+        "score": 0.592913,
+        "hit_count": 36,
+        "chunk_scores": [
+          0.595377,
+          0.591864,
+          0.591498
+        ]
+      }
+    ],
+    "hit_count_weighted": [
+      {
+        "rank": 1,
+        "doc_id": "mentions-many",
+        "score": 1.0,
+        "hit_count": 5,
+        "chunk_scores": [
+          0.902641
+        ]
+      },
+      {
+        "rank": 2,
+        "doc_id": "mentions-once",
+        "score": 0.892364,
+        "hit_count": 1,
+        "chunk_scores": [
+          0.865455
+        ]
+      },
+      {
+        "rank": 3,
+        "doc_id": "unrelated",
+        "score": 0.595377,
+        "hit_count": 0,
+        "chunk_scores": [
+          0.595377
+        ]
+      }
+    ]
+  }
+}

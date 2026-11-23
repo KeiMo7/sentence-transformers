@@ -1,0 +1,144 @@
+{
+  "query": "保修期参数A的默认值是多少？",
+  "top_k": 10,
+  "indexed_documents": 15,
+  "indexed_chunks": 331,
+  "before_chunk_level": [
+    "faq-03",
+    "product-manual",
+    "product-manual",
+    "product-manual",
+    "product-manual",
+    "product-manual",
+    "product-manual",
+    "product-manual",
+    "product-manual",
+    "product-manual"
+  ],
+  "before_unique_documents": 2,
+  "before_repeated_document_hits": 8,
+  "after_document_level": [
+    {
+      "rank": 1,
+      "doc_id": "faq-03",
+      "score": 0.992769,
+      "coverage": 1.0,
+      "matched_chunk": 0,
+      "char_range": [
+        0,
+        23
+      ],
+      "snippet": "保修期参数A的默认值是十。发票申请需要订单号。"
+    },
+    {
+      "rank": 2,
+      "doc_id": "product-manual",
+      "score": 0.976039,
+      "coverage": 0.0704,
+      "matched_chunk": 1,
+      "char_range": [
+        67,
+        149
+      ],
+      "snippet": "第五节给出物流时效的参考区间。第六节描述技术支持的联系渠道。客服知识库第一节说明退换货流程。第二节列出保修期的具体参数A，默认值为十。第三节说明发票申请的所需材料。"
+    },
+    {
+      "rank": 3,
+      "doc_id": "faq-04",
+      "score": 0.185473,
+      "coverage": 0.0411,
+      "matched_chunk": 1,
+      "char_range": [
+        80,
+        160
+      ],
+      "snippet": "The faq4 guide paragraph 1 discusses routine topic 1 with no special parameter."
+    },
+    {
+      "rank": 4,
+      "doc_id": "faq-10",
+      "score": 0.184999,
+      "coverage": 0.0411,
+      "matched_chunk": 1,
+      "char_range": [
+        81,
+        162
+      ],
+      "snippet": "The faq10 guide paragraph 1 discusses routine topic 1 with no special parameter."
+    },
+    {
+      "rank": 5,
+      "doc_id": "faq-01",
+      "score": 0.181816,
+      "coverage": 0.0411,
+      "matched_chunk": 1,
+      "char_range": [
+        80,
+        160
+      ],
+      "snippet": "The faq1 guide paragraph 1 discusses routine topic 1 with no special parameter."
+    },
+    {
+      "rank": 6,
+      "doc_id": "faq-05",
+      "score": 0.179047,
+      "coverage": 0.0411,
+      "matched_chunk": 1,
+      "char_range": [
+        80,
+        160
+      ],
+      "snippet": "The faq5 guide paragraph 1 discusses routine topic 1 with no special parameter."
+    },
+    {
+      "rank": 7,
+      "doc_id": "faq-13",
+      "score": 0.178777,
+      "coverage": 0.0411,
+      "matched_chunk": 1,
+      "char_range": [
+        81,
+        162
+      ],
+      "snippet": "The faq13 guide paragraph 1 discusses routine topic 1 with no special parameter."
+    },
+    {
+      "rank": 8,
+      "doc_id": "faq-07",
+      "score": 0.178291,
+      "coverage": 0.0411,
+      "matched_chunk": 1,
+      "char_range": [
+        80,
+        160
+      ],
+      "snippet": "The faq7 guide paragraph 1 discusses routine topic 1 with no special parameter."
+    },
+    {
+      "rank": 9,
+      "doc_id": "faq-08",
+      "score": 0.177527,
+      "coverage": 0.0411,
+      "matched_chunk": 1,
+      "char_range": [
+        80,
+        160
+      ],
+      "snippet": "The faq8 guide paragraph 1 discusses routine topic 1 with no special parameter."
+    },
+    {
+      "rank": 10,
+      "doc_id": "faq-11",
+      "score": 0.177426,
+      "coverage": 0.0411,
+      "matched_chunk": 1,
+      "char_range": [
+        81,
+        162
+      ],
+      "snippet": "The faq11 guide paragraph 1 discusses routine topic 1 with no special parameter."
+    }
+  ],
+  "after_unique_documents": 10,
+  "after_repeated_document_hits": 0
+}

@@ -1,0 +1,19 @@
+{
+  "documents": 1000,
+  "chunks": 11000,
+  "chunks_per_document": 11.0,
+  "config": {
+    "max_chars": 200,
+    "overlap_chars": 40
+  },
+  "baseline_encode_seconds": 0.841,
+  "chunked_index_seconds": 2.056,
+  "index_over_baseline": 2.444,
+  "noop_reindex_seconds": 0.001,
+  "noop_reindex_reencoded_documents": 0,
+  "query_seconds": {
+    "median": 0.01687,
+    "p95": 0.01947,
+    "max": 0.0823
+  }
+}

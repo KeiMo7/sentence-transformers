@@ -1,8 +1,23 @@
 from __future__ import annotations
 
+from .chunking import (
+    ChunkingConfig,
+    ChunkingError,
+    ChunkPlan,
+    TextChunk,
+    TruncationInfo,
+    chunk_document,
+    chunk_text,
+)
 from .dataset import resolve_ids
 from .decorators import save_to_hub_args_decorator
 from .distributed import all_gather, all_gather_padded, all_gather_with_grad, get_rank, get_world_size
+from .document_retrieval import (
+    CachedChunkEncoder,
+    DocumentEncodingError,
+    DocumentHit,
+    DocumentRetriever,
+)
 from .environment import (
     check_package_availability,
     check_version_requirements,
@@ -70,6 +85,19 @@ from .tensor import (
 __all__ = [
     # From decorators.py
     "save_to_hub_args_decorator",
+    # From chunking.py
+    "ChunkingConfig",
+    "ChunkingError",
+    "ChunkPlan",
+    "TextChunk",
+    "TruncationInfo",
+    "chunk_document",
+    "chunk_text",
+    # From document_retrieval.py
+    "CachedChunkEncoder",
+    "DocumentEncodingError",
+    "DocumentHit",
+    "DocumentRetriever",
     # From distributed.py
     "all_gather",
     "all_gather_padded",

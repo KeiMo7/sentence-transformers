@@ -1,0 +1,105 @@
+{
+  "updated_document": "doc-05",
+  "update_returned": true,
+  "documents_checked": 19,
+  "all_unchanged_bit_identical": true,
+  "unchanged": [
+    {
+      "doc_id": "doc-00",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-01",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-02",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-03",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-04",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-06",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-07",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-08",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-09",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-10",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-11",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-12",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-13",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-14",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-15",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-16",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-17",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-18",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "doc_id": "doc-19",
+      "bit_identical": true,
+      "max_abs_diff": 0.0
+    }
+  ],
+  "changed_document_vectors_identical": false,
+  "changed_document_text_grew": true
+}
